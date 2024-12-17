@@ -25,6 +25,7 @@ cumrets.iloc[0] = 1.
 
 # Initialize the app
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Asset Analysis Dashboard"),
