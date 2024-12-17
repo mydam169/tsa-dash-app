@@ -4,7 +4,6 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import plotly.express as px
 import pandas as pd
-import numpy as np
 from load_n_clean import load_data
 
 
